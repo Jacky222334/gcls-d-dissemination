@@ -1,0 +1,39 @@
+qid;question_code;question_text_de;question_type;mandatory;scale_text;answer_1;answer_2;answer_3;answer_4;answer_5;notes
+1;GCLS_01;Ich habe soziale Situationen und/oder Interaktionen vermieden;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 1 - Subskala 6
+2;GCLS_02;Ich bin nicht zur Schule/Universität/Arbeit gegangen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 2 - Subskala 6
+3;GCLS_03;Ich bin nicht in der Lage gewesen, emotionale Beziehungen zu anderen Menschen zu führen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 3 - Subskala 5
+4;GCLS_04;Ich habe unter Angst gelitten;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 4 - Subskala 6
+5;GCLS_05;Ich war nicht imstande, mit anderen Menschen körperlich intim zu sein;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 5 - Subskala 5
+6;GCLS_06;Ich war nicht imstande, das Haus zu verlassen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 6 - Subskala 6
+7;GCLS_07;Es ist mir schwergefallen, Freundschaften zu schließen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 7 - Subskala 6
+8;GCLS_08;Ich habe darüber nachgedacht, meine Brust, Genitalien und/oder angrenzende Bereiche zu schneiden oder zu verletzen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 8 - Subskala 6
+9;GCLS_09;Ich habe gefühlt, dass das Leben bedeutungslos ist;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 9 - Subskala 6
+10;GCLS_10;Ich habe mein Leben nicht genossen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 10 - Subskala 7
+11;GCLS_11;Ich habe keine Freizeitaktivitäten unternommen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 11 - Subskala 6
+12;GCLS_12;Ich habe unter niedergedrückter Stimmung gelitten;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 12 - Subskala 6
+13;GCLS_13;Ich habe daran gedacht, mich zu verletzen oder mein Leben zu nehmen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 13 - Subskala 6
+14;GCLS_14;Die Berührung meiner Genitalien war eine Belastung für mich, da sie nicht meiner Geschlechtsidentität entsprechen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 14 - Subskala 1
+15;GCLS_15;Ich habe mich wegen meiner Brust so belastet gefühlt, dass ich kein erfülltes Leben führen konnte;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 15 - Subskala 2
+16;GCLS_16;Ich habe mich wohl gefühlt damit, wie andere mein Geschlecht wahrgenommen haben;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 16 - Subskala 4
+17;GCLS_17;Ich habe gefühlt, dass meine Körperbehaarung nicht zu meiner Geschlechtsidentität passt – entweder weil ich sie habe und sie nicht mag oder weil ich gerne welche hätte;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 17 - Subskala 3
+18;GCLS_18;Ich habe gefühlt, dass meine Brust nicht zu meiner Geschlechtsidentität passt;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 18 - Subskala 2
+19;GCLS_19;Ich habe es belastend gefunden, dass andere mich nicht entsprechend meiner Geschlechtsidentität angesprochen haben;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 19 - Subskala 4
+20;GCLS_20;Ich habe mich zufrieden gefühlt mit den Pronomen, die andere verwenden, wenn sie über mich sprechen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 20 - Subskala 4
+21;GCLS_21;Ich war unglücklich über meine Genitalien, da sie nicht meiner Geschlechtsidentität entsprechen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 21 - Subskala 1
+22;GCLS_22;Ich habe mich wohl gefühlt damit, wie andere Menschen mein Geschlecht aufgrund meiner körperlichen Erscheinung wahrnehmen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 22 - Subskala 4
+23;GCLS_23;Ich habe gefühlt, dass meine Stimme beeinflusst hat, wie andere Menschen meine Geschlechtsidentität wahrnehmen – was mich belastet hat;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 23 - Subskala 3
+24;GCLS_24;Ich habe gefühlt, dass meine Gesichtsbehaarung nicht zu meiner Geschlechtsidentität passt – entweder weil ich sie habe und sie nicht mag oder weil ich gerne welche hätte;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 24 - Subskala 3
+25;GCLS_25;Ich hatte das Gefühl, dass meine Genitalien meiner Geschlechtsidentität entsprechen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 25 - Subskala 1
+26;GCLS_26;Ich hatte das Gefühl, dass eine Genitaloperation meine Unzufriedenheit in Bezug auf mein Geschlecht reduzieren kann;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 26 - Subskala 1
+27;GCLS_27;Ich war nicht in der Lage, ein erfülltes Leben zu führen, da ich mit meinen Genitalien unzufrieden war;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 27 - Subskala 1
+28;GCLS_28;Ich habe mich extrem belastet gefühlt, wenn ich meine Brust angesehen habe;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 28 - Subskala 2
+29;GCLS_29;Ich war extrem belastet, wenn ich meine Genitalien angesehen habe;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 29 - Subskala 1
+30;GCLS_30;Ich habe mich zufrieden mit meiner Brust gefühlt;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 30 - Subskala 2
+31;GCLS_31;Ich war in der Schule/Universität/bei der Arbeit zufrieden;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 31 - Subskala 7
+32;GCLS_32;Ich war zufrieden mit meiner emotionalen Beziehung / meinen emotionalen Beziehungen;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 32 - Subskala 5
+33;GCLS_33;Ich war zufrieden mit meinem Sexualleben;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 33 - Subskala 5
+34;GCLS_34;Ich war zufrieden mit meinen Freizeitaktivitäten und Hobbies;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 34 - Subskala 7
+35;GCLS_35;Ich habe mich unzufrieden mit meinen Freunden gefühlt;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 35 - Subskala 7
+36;GCLS_36;Ich habe mich zufrieden gefühlt mit der Unterstützung, die ich von anderen wichtigen Menschen erhalten habe;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 36 - Subskala 7
+37;GCLS_37;Ich habe mich nicht zufrieden mit meiner Gesundheit gefühlt;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 37 - Subskala 7
+38;GCLS_38;Ich habe mich zufrieden mit meinem Leben gefühlt;L;Y;5-Punkt Likert Skala;Niemals;Selten;Manchmal;Oft;Immer;Item 38 - Subskala 7

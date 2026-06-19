@@ -1,0 +1,23 @@
+{
+  "title": "Gender Congruence and Life Satisfaction Scale – Deutsche Version (GCLS-D)",
+  "upload_type": "dataset",
+  "description": "Deutsche Version (GCLS-D) inkl. Fragebogen-PDF, LaTeX-Quelle, Scoring-Manual, Scoring-Skripten (R/SPSS/Stata) und Excel-Scoring-Template. Enthält außerdem Norm-/Referenzwerte und Reliabilitätskennwerte (aus dem im Projekt vorliegenden Datensatz) sowie Vorlagen für Dissemination.",
+  "creators": [
+    {
+      "name": "Schulze, Jan",
+      "affiliation": "Universitätsspital Zürich (USZ)"
+    }
+  ],
+  "keywords": [
+    "GCLS",
+    "GCLS-D",
+    "questionnaire",
+    "psychometrics",
+    "German",
+    "gender congruence",
+    "life satisfaction"
+  ],
+  "notes": "Lizenz/Weiterverwendungsrechte bitte vor Veröffentlichung final klären (Originalinstrument). In CITATION.cff und README die finalen bibliografischen Angaben (Journal/DOI) ergänzen.",
+  "access_right": "open"
+}
+

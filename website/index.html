@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GCLS-D – Deutsche Version</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <div class="badge">GCLS-D</div>
+        <h1>Gender Congruence and Life Satisfaction Scale – Deutsche Version</h1>
+        <p class="lead">
+          Downloads, Scoring und Referenzwerte für die deutsche Version (GCLS-D) – mit Fokus auf Nutzbarkeit im Forschungs- und Klinikalltag.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="./downloads/GCLS-D_Fragebogen.pdf">Fragebogen (PDF) herunterladen</a>
+          <a class="btn" href="../scoring/GCLS-D_Scoring_Manual.md">Scoring Manual</a>
+        </div>
+        <p class="meta">
+          Version: <strong>1.0.0</strong> · Stand: <strong>2026-06-19</strong>
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="grid">
+        <article class="card">
+          <h2>Downloads</h2>
+          <ul>
+            <li><a href="./downloads/GCLS-D_Fragebogen.pdf">GCLS-D Fragebogen (PDF)</a></li>
+            <li><a href="./downloads/GCLS-D_Fragebogen.tex">LaTeX-Quelle (Fragebogen)</a></li>
+            <li><a href="../questionnaire/GCLS-D_Aenderungslog_Items.md">Änderungslog (Übersetzungs-Glättungen)</a></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Scoring</h2>
+          <ul>
+            <li><a href="../scoring/GCLS-D_Scoring_Manual.md">Scoring Manual (Markdown)</a></li>
+            <li><a href="../scoring/gcls_d_scoring.R">R-Skript</a></li>
+            <li><a href="../scoring/gcls_d_scoring.sps">SPSS-Syntax</a></li>
+            <li><a href="../scoring/gcls_d_scoring.do">Stata-Do-File</a></li>
+            <li><a href="../scoring/GCLS-D_Scoring_Template.xlsx">Excel Scoring Template</a></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Normwerte &amp; Reliabilität</h2>
+          <ul>
+            <li><a href="../norms/GCLS-D_Normwerte_und_Reliabilitaet.xlsx">Normwerte + Alpha (Excel)</a></li>
+            <li><a href="../norms/GCLS-D_Normwerte_gesamt.csv">Normwerte (CSV)</a></li>
+            <li><a href="../norms/GCLS-D_Reliabilitaet_alpha.csv">Reliabilität (Alpha, CSV)</a></li>
+          </ul>
+          <p class="hint">
+            Hinweis: Referenzwerte sind immer kontextabhängig (Stichprobe/Setting). Bitte im Paper und in der eigenen Studie sauber berichten.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Zitat / DOI</h2>
+          <p>
+            Für maximale Zitierbarkeit empfiehlt sich ein Repositorium-Release (z. B. Zenodo) mit DOI.
+          </p>
+          <ul>
+            <li><a href="../metadata/CITATION.cff">CITATION.cff</a></li>
+            <li><a href="../metadata/zenodo.json">Zenodo-Metadaten</a></li>
+            <li><a href="../metadata/REFERENCE.md">Zitierempfehlung (Text)</a></li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="card wide">
+        <h2>FAQ (Kurz)</h2>
+        <details>
+          <summary>Welche Items sind umgepolt?</summary>
+          <p>Reverse-Items: 3, 5, 10, 31–38 (inkl. 32–38).</p>
+        </details>
+        <details>
+          <summary>Welche Skala wird erwartet?</summary>
+          <p>Standard ist 1–5 (Niemals–Immer). Einige Datensätze können 0–4 kodiert sein; dann muss die Umpolungsformel entsprechend angepasst werden.</p>
+        </details>
+        <details>
+          <summary>Was ist die empfohlene Scorebildung?</summary>
+          <p>Subskalen als Mittelwert der umgepolten Items; im Template/Script wird eine pragmatische Missing-Regel (≥50% valide Items) verwendet.</p>
+        </details>
+      </section>
+
+      <footer class="footer">
+        <p>
+          Kontakt/Projekt: bitte im finalen Release ergänzen (z. B. Klinik/AG-Seite, OSF/Zenodo-Link, DOI).
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
+

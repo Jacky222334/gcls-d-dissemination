@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Wenn Sie GCLS-D verwenden, zitieren Sie bitte die deutsche Validierungsarbeit sowie die Originalpublikation."
+title: "Gender Congruence and Life Satisfaction Scale – Deutsche Version (GCLS-D)"
+type: dataset
+authors:
+  - family-names: "Schulze"
+    given-names: "Jan"
+    affiliation: "Universitätsspital Zürich (USZ)"
+keywords:
+  - questionnaire
+  - psychometrics
+  - gender congruence
+  - life satisfaction
+  - German
+license: "TBD"
+repository-code: "TBD"
+url: "TBD"
+version: "1.0.0"
+date-released: "2026-06-19"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Schulze"
+      given-names: "Jan"
+  year: 2026
+  title: "Validation of the German Version of the Gender Congruence and Life Satisfaction Scale (GCLS-D)"
+  journal: "TBD"
+  doi: "TBD"
+

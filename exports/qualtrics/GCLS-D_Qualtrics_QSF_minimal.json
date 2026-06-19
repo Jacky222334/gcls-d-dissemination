@@ -1,0 +1,1631 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_GCLS_D",
+    "SurveyName": "GCLS-D",
+    "SurveyDescription": "German Version of GCLS",
+    "SurveyOwnerID": "UR_OWNER",
+    "SurveyBrandID": "BRAND",
+    "DivisionID": "DIV",
+    "SurveyLanguage": "DE",
+    "SurveyActiveResponseSet": "RS_1"
+  },
+  "SurveyElements": [
+    {
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "Payload": [
+        {
+          "Type": "Default",
+          "ID": "BL_1",
+          "Description": "GCLS-D",
+          "Elements": [
+            {
+              "Type": "Question",
+              "QuestionID": "QID1"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID2"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID3"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID4"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID5"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID6"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID7"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID8"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID9"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID10"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID11"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID12"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID13"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID14"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID15"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID16"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID17"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID18"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID19"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID20"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID21"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID22"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID23"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID24"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID25"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID26"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID27"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID28"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID29"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID30"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID31"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID32"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID33"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID34"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID35"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID36"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID37"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Element": "SQ",
+      "PrimaryAttribute": "Survey Questions",
+      "SecondaryAttribute": null,
+      "Payload": {
+        "QID1": {
+          "QuestionID": "QID1",
+          "QuestionText": "Ich habe soziale Situationen und/oder Interaktionen vermieden",
+          "DataExportTag": "gcls_01",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID2": {
+          "QuestionID": "QID2",
+          "QuestionText": "Ich bin nicht zur Schule/Universität/Arbeit gegangen",
+          "DataExportTag": "gcls_02",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID3": {
+          "QuestionID": "QID3",
+          "QuestionText": "Ich bin nicht in der Lage gewesen, emotionale Beziehungen zu anderen Menschen zu führen",
+          "DataExportTag": "gcls_03",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID4": {
+          "QuestionID": "QID4",
+          "QuestionText": "Ich habe unter Angst gelitten",
+          "DataExportTag": "gcls_04",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID5": {
+          "QuestionID": "QID5",
+          "QuestionText": "Ich bin nicht in der Lage gewesen, mit anderen Menschen körperlich intim zu sein",
+          "DataExportTag": "gcls_05",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID6": {
+          "QuestionID": "QID6",
+          "QuestionText": "Ich bin nicht in der Lage gewesen, das Haus zu verlassen",
+          "DataExportTag": "gcls_06",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID7": {
+          "QuestionID": "QID7",
+          "QuestionText": "Es ist mir schwergefallen, Freundschaften zu schließen",
+          "DataExportTag": "gcls_07",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID8": {
+          "QuestionID": "QID8",
+          "QuestionText": "Ich habe darüber nachgedacht, meine Brust, Genitalien und/oder angrenzende Bereiche zu schneiden oder zu verletzen",
+          "DataExportTag": "gcls_08",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID9": {
+          "QuestionID": "QID9",
+          "QuestionText": "Ich hatte das Gefühl, dass das Leben bedeutungslos ist",
+          "DataExportTag": "gcls_09",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID10": {
+          "QuestionID": "QID10",
+          "QuestionText": "Ich habe mein Leben nicht genossen",
+          "DataExportTag": "gcls_10",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID11": {
+          "QuestionID": "QID11",
+          "QuestionText": "Ich habe keine Freizeitaktivitäten unternommen",
+          "DataExportTag": "gcls_11",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID12": {
+          "QuestionID": "QID12",
+          "QuestionText": "Ich habe unter niedergedrückter Stimmung gelitten",
+          "DataExportTag": "gcls_12",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID13": {
+          "QuestionID": "QID13",
+          "QuestionText": "Ich habe daran gedacht, mich zu verletzen oder mein Leben zu nehmen",
+          "DataExportTag": "gcls_13",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID14": {
+          "QuestionID": "QID14",
+          "QuestionText": "Die Berührung meiner Genitalien war eine Belastung für mich, da sie nicht meiner Geschlechtsidentität entsprechen",
+          "DataExportTag": "gcls_14",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID15": {
+          "QuestionID": "QID15",
+          "QuestionText": "Ich habe mich wegen meiner Brust so belastet gefühlt, dass ich kein erfülltes Leben führen konnte",
+          "DataExportTag": "gcls_15",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID16": {
+          "QuestionID": "QID16",
+          "QuestionText": "Ich habe mich wohl damit gefühlt, wie andere mein Geschlecht wahrgenommen haben",
+          "DataExportTag": "gcls_16",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID17": {
+          "QuestionID": "QID17",
+          "QuestionText": "Ich hatte das Gefühl, dass meine Körperbehaarung nicht zu meiner Geschlechtsidentität passt – entweder weil ich sie habe und sie nicht mag oder weil ich gerne welche hätte",
+          "DataExportTag": "gcls_17",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID18": {
+          "QuestionID": "QID18",
+          "QuestionText": "Ich hatte das Gefühl, dass meine Brust nicht zu meiner Geschlechtsidentität passt",
+          "DataExportTag": "gcls_18",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID19": {
+          "QuestionID": "QID19",
+          "QuestionText": "Ich habe es belastend gefunden, dass andere mich nicht entsprechend meiner Geschlechtsidentität angesprochen haben",
+          "DataExportTag": "gcls_19",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID20": {
+          "QuestionID": "QID20",
+          "QuestionText": "Ich habe mich zufrieden gefühlt mit den Pronomen, die andere verwenden, wenn sie über mich sprechen",
+          "DataExportTag": "gcls_20",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID21": {
+          "QuestionID": "QID21",
+          "QuestionText": "Ich war unglücklich über meine Genitalien, da sie nicht meiner Geschlechtsidentität entsprechen",
+          "DataExportTag": "gcls_21",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID22": {
+          "QuestionID": "QID22",
+          "QuestionText": "Ich habe mich wohl gefühlt damit, wie andere Menschen mein Geschlecht aufgrund meiner körperlichen Erscheinung wahrnehmen",
+          "DataExportTag": "gcls_22",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID23": {
+          "QuestionID": "QID23",
+          "QuestionText": "Ich hatte das Gefühl, dass meine Stimme beeinflusst hat, wie andere Menschen meine Geschlechtsidentität wahrnehmen – das hat mich belastet",
+          "DataExportTag": "gcls_23",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID24": {
+          "QuestionID": "QID24",
+          "QuestionText": "Ich hatte das Gefühl, dass meine Gesichtsbehaarung nicht zu meiner Geschlechtsidentität passt – entweder weil ich sie habe und sie nicht mag oder weil ich gerne welche hätte",
+          "DataExportTag": "gcls_24",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID25": {
+          "QuestionID": "QID25",
+          "QuestionText": "Ich hatte das Gefühl, dass meine Genitalien meiner Geschlechtsidentität entsprechen",
+          "DataExportTag": "gcls_25",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID26": {
+          "QuestionID": "QID26",
+          "QuestionText": "Ich hatte das Gefühl, dass eine Genitaloperation meine Unzufriedenheit in Bezug auf mein Geschlecht reduzieren kann",
+          "DataExportTag": "gcls_26",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID27": {
+          "QuestionID": "QID27",
+          "QuestionText": "Ich war nicht in der Lage, ein erfülltes Leben zu führen, da ich mit meinen Genitalien unzufrieden war",
+          "DataExportTag": "gcls_27",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID28": {
+          "QuestionID": "QID28",
+          "QuestionText": "Ich habe mich extrem belastet gefühlt, wenn ich meine Brust angesehen habe",
+          "DataExportTag": "gcls_28",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID29": {
+          "QuestionID": "QID29",
+          "QuestionText": "Ich war extrem belastet, wenn ich meine Genitalien angesehen habe",
+          "DataExportTag": "gcls_29",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID30": {
+          "QuestionID": "QID30",
+          "QuestionText": "Ich habe mich zufrieden mit meiner Brust gefühlt",
+          "DataExportTag": "gcls_30",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID31": {
+          "QuestionID": "QID31",
+          "QuestionText": "Ich war in der Schule/Universität/bei der Arbeit zufrieden",
+          "DataExportTag": "gcls_31",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID32": {
+          "QuestionID": "QID32",
+          "QuestionText": "Ich war zufrieden mit meiner emotionalen Beziehung / meinen emotionalen Beziehungen",
+          "DataExportTag": "gcls_32",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID33": {
+          "QuestionID": "QID33",
+          "QuestionText": "Ich war zufrieden mit meinem Sexualleben",
+          "DataExportTag": "gcls_33",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID34": {
+          "QuestionID": "QID34",
+          "QuestionText": "Ich war zufrieden mit meinen Freizeitaktivitäten und Hobbys",
+          "DataExportTag": "gcls_34",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID35": {
+          "QuestionID": "QID35",
+          "QuestionText": "Ich habe mich unzufrieden mit meinen Freunden gefühlt",
+          "DataExportTag": "gcls_35",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID36": {
+          "QuestionID": "QID36",
+          "QuestionText": "Ich habe mich zufrieden gefühlt mit der Unterstützung, die ich von anderen wichtigen Menschen erhalten habe",
+          "DataExportTag": "gcls_36",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID37": {
+          "QuestionID": "QID37",
+          "QuestionText": "Ich war nicht zufrieden mit meiner Gesundheit",
+          "DataExportTag": "gcls_37",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        },
+        "QID38": {
+          "QuestionID": "QID38",
+          "QuestionText": "Ich habe mich zufrieden mit meinem Leben gefühlt",
+          "DataExportTag": "gcls_38",
+          "QuestionType": "MC",
+          "Selector": "SAVR",
+          "SubSelector": "TX",
+          "Choices": {
+            "1": {
+              "Display": "Niemals"
+            },
+            "2": {
+              "Display": "Selten"
+            },
+            "3": {
+              "Display": "Manchmal"
+            },
+            "4": {
+              "Display": "Oft"
+            },
+            "5": {
+              "Display": "Immer"
+            }
+          },
+          "ChoiceOrder": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "Validation": {
+            "Settings": {
+              "ForceResponse": "ON"
+            }
+          },
+          "Configuration": {}
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "data_source": "/Users/janschulze/Documents/GCLS/Gesamt_Datensatz_merged.xlsx",
+  "coding_detected": "0-4",
+  "scoring": {
+    "reverse_items": [
+      3,
+      5,
+      10,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "reverse_formula_0_4": "4 - x",
+    "subscale_score": "mean",
+    "min_valid_prop": 0.5
+  }
+}

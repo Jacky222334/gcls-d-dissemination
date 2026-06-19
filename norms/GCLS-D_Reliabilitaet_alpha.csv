@@ -1,0 +1,11 @@
+scale,n_items,alpha_completecase,n_completecase
+Chest,4,0.09729340836974283,293
+Gender_Congruence,17,0.5928924101957237,293
+Genitalia,6,0.5653380559183582,293
+Life_Satisfaction,7,-0.4117328117512008,293
+Mental_Wellbeing_and_Life_Satisfaction,21,0.6840783922483931,293
+Other_Secondary_Sex_Characteristics,3,0.7949296072498155,293
+Physical_and_Emotional_Intimacy,4,-0.7111081701910443,293
+Psychological_Functioning,10,0.884056426231295,293
+Social_Gender_Role_Recognition,4,0.008678184708012921,293
+TotalMean,38,0.744149500622521,293

@@ -1,0 +1,146 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=20mm]{geometry}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{colortbl}
+\usepackage{xltabular} % longtable + tabularx
+\usepackage{tcolorbox}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\definecolor{GCLSBlue}{HTML}{1E5AA8}
+\definecolor{GCLSGray}{HTML}{F3F5F7}
+\definecolor{GCLSGray2}{HTML}{FAFBFC}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{GCLS-D} – Fragebogen}
+\rhead{\textbf{Seite \thepage\ von \pageref{LastPage}}}
+\cfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{14pt}
+
+\newcommand{\checkbox}{\(\Large\square\)}
+\newcommand{\likerthead}[1]{\rotatebox{90}{\parbox{18mm}{\centering\footnotesize\textbf{#1}}}}
+
+\begin{document}
+
+\begin{tcolorbox}[
+  colback=GCLSGray,
+  colframe=GCLSBlue,
+  arc=2mm,
+  boxrule=0.8pt,
+  left=4mm,right=4mm,top=3mm,bottom=3mm
+]
+{\Large \textbf{Gender Congruence and Life Satisfaction Scale – Deutsche Version (GCLS-D)}}\\
+\textbf{Instruktion:} Bitte lesen Sie jede Aussage und kreuzen Sie an, wie häufig Sie dies erlebt haben.\\
+\textbf{Antwortformat:} Niemals – Selten – Manchmal – Oft – Immer.\\
+\textbf{Hinweis:} Bitte pro Aussage genau \textbf{eine} Antwort ankreuzen.
+\end{tcolorbox}
+
+\vspace{2mm}
+
+\begin{tabular}{@{}p{0.22\textwidth}p{0.35\textwidth}p{0.18\textwidth}p{0.20\textwidth}@{}}
+\textbf{Teilnehmer*innen-ID:} & \hrulefill & \textbf{Datum:} & \hrulefill \\
+\textbf{Studie/Ort:} & \hrulefill & \textbf{Version:} & \texttt{GCLS-D (Layout v1)} \\
+\end{tabular}
+
+\vspace{4mm}
+
+\renewcommand{\arraystretch}{1.35}
+\small
+\rowcolors{2}{GCLSGray2}{white}
+\begin{xltabular}{\textwidth}{
+  >{\raggedright\arraybackslash}p{7mm}
+  >{\raggedright\arraybackslash}X
+  *{5}{>{\centering\arraybackslash}p{9mm}}
+}
+\toprule
+\textbf{\#} & \textbf{Aussage} & \multicolumn{5}{c}{\textbf{Antwort}} \\
+\cmidrule(lr){3-7}
+ &  & \likerthead{Niemals} & \likerthead{Selten} & \likerthead{Manchmal} & \likerthead{Oft} & \likerthead{Immer} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{\#} & \textbf{Aussage} & \multicolumn{5}{c}{\textbf{Antwort}} \\
+\cmidrule(lr){3-7}
+ &  & \likerthead{Niemals} & \likerthead{Selten} & \likerthead{Manchmal} & \likerthead{Oft} & \likerthead{Immer} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{7}{r}{\footnotesize Fortsetzung auf der nächsten Seite}
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+1  & Ich habe soziale Situationen und/oder Interaktionen vermieden & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+2  & Ich bin nicht zur Schule/Universität/Arbeit gegangen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+3  & Ich bin nicht in der Lage gewesen, emotionale Beziehungen zu anderen Menschen zu führen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+4  & Ich habe unter Angst gelitten & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+5  & Ich bin nicht in der Lage gewesen, mit anderen Menschen körperlich intim zu sein & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+6  & Ich bin nicht in der Lage gewesen, das Haus zu verlassen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+7  & Es ist mir schwergefallen, Freundschaften zu schließen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+8  & Ich habe darüber nachgedacht, meine Brust, Genitalien und/oder angrenzende Bereiche zu schneiden oder zu verletzen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+9  & Ich hatte das Gefühl, dass das Leben bedeutungslos ist & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+10 & Ich habe mein Leben nicht genossen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+11 & Ich habe keine Freizeitaktivitäten unternommen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+12 & Ich habe unter niedergedrückter Stimmung gelitten & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+13 & Ich habe daran gedacht, mich zu verletzen oder mein Leben zu nehmen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+14 & Die Berührung meiner Genitalien war eine Belastung für mich, da sie nicht meiner Geschlechtsidentität entsprechen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+15 & Ich habe mich wegen meiner Brust so belastet gefühlt, dass ich kein erfülltes Leben führen konnte & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+16 & Ich habe mich wohl damit gefühlt, wie andere mein Geschlecht wahrgenommen haben & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+17 & Ich hatte das Gefühl, dass meine Körperbehaarung nicht zu meiner Geschlechtsidentität passt – entweder weil ich sie habe und sie nicht mag oder weil ich gerne welche hätte & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+18 & Ich hatte das Gefühl, dass meine Brust nicht zu meiner Geschlechtsidentität passt & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+19 & Ich habe es belastend gefunden, dass andere mich nicht entsprechend meiner Geschlechtsidentität angesprochen haben & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+20 & Ich habe mich zufrieden gefühlt mit den Pronomen, die andere verwenden, wenn sie über mich sprechen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+21 & Ich war unglücklich über meine Genitalien, da sie nicht meiner Geschlechtsidentität entsprechen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+22 & Ich habe mich wohl gefühlt damit, wie andere Menschen mein Geschlecht aufgrund meiner körperlichen Erscheinung wahrnehmen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+23 & Ich hatte das Gefühl, dass meine Stimme beeinflusst hat, wie andere Menschen meine Geschlechtsidentität wahrnehmen – das hat mich belastet & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+24 & Ich hatte das Gefühl, dass meine Gesichtsbehaarung nicht zu meiner Geschlechtsidentität passt – entweder weil ich sie habe und sie nicht mag oder weil ich gerne welche hätte & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+25 & Ich hatte das Gefühl, dass meine Genitalien meiner Geschlechtsidentität entsprechen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+26 & Ich hatte das Gefühl, dass eine Genitaloperation meine Unzufriedenheit in Bezug auf mein Geschlecht reduzieren kann & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+27 & Ich war nicht in der Lage, ein erfülltes Leben zu führen, da ich mit meinen Genitalien unzufrieden war & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+28 & Ich habe mich extrem belastet gefühlt, wenn ich meine Brust angesehen habe & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+29 & Ich war extrem belastet, wenn ich meine Genitalien angesehen habe & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+30 & Ich habe mich zufrieden mit meiner Brust gefühlt & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+31 & Ich war in der Schule/Universität/bei der Arbeit zufrieden & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+32 & Ich war zufrieden mit meiner emotionalen Beziehung / meinen emotionalen Beziehungen & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+33 & Ich war zufrieden mit meinem Sexualleben & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+34 & Ich war zufrieden mit meinen Freizeitaktivitäten und Hobbys & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+35 & Ich habe mich unzufrieden mit meinen Freunden gefühlt & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+36 & Ich habe mich zufrieden gefühlt mit der Unterstützung, die ich von anderen wichtigen Menschen erhalten habe & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+37 & Ich war nicht zufrieden mit meiner Gesundheit & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+38 & Ich habe mich zufrieden mit meinem Leben gefühlt & \checkbox & \checkbox & \checkbox & \checkbox & \checkbox \\
+
+\end{xltabular}
+
+\vspace{2mm}
+
+{\footnotesize
+\textbf{Quelle der Itemtexte:} Basierend auf \texttt{Paper\_final/GCLS-D\_v1.0\_LimeSurvey.csv} mit sprachlichen Glättungen (v.\,a. „Ich hatte das Gefühl …“, konsistente Formulierungen, Rechtschreibung „Hobbys“).}
+
+\end{document}
+
