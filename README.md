@@ -32,6 +32,7 @@ Aus dem Projekt-Datensatz `Gesamt_Datensatz_merged.xlsx` (0–4 Kodierung) berec
 - `metadata/CITATION.cff` (für GitHub/Zenodo)
 - `metadata/zenodo.json` (Zenodo-Upload Metadaten)
 - `metadata/REFERENCE.md` (Zitierempfehlung-Text)
+- `metadata/ORIGINAL_GCLS_Autor_innen_und_Lizenz.md` (Originalautor*innen + Lizenz aus dem GCLS-Originalpaper)
 
 ## 6) Website (lokaler Entwurf)
 - `website/index.html`
@@ -45,4 +46,7 @@ Aus dem Projekt-Datensatz `Gesamt_Datensatz_merged.xlsx` (0–4 Kodierung) berec
 ## Wichtiger Hinweis (rechte-/lizenzbezogen)
 Für eine echte Open-Access-Dissemination (Website + Zenodo/OSF DOI) sollte vor Veröffentlichung final geklärt werden,
 unter welcher **Lizenz** die **Itemtexte** weitergegeben werden dürfen (in Relation zum Originalinstrument).
+
+Zusatz: Das Originalpaper ist Open Access unter **CC BY-NC-ND 4.0** (laut PDF). Diese Lizenz erlaubt Verteilung, aber **keine Derivate**.
+Details siehe `metadata/ORIGINAL_GCLS_Autor_innen_und_Lizenz.md`.
 
