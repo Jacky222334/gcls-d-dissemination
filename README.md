@@ -2,6 +2,12 @@
 
 Dieses Verzeichnis bündelt alles, was man typischerweise für **Sichtbarkeit + Nutzbarkeit** eines validierten Instruments braucht: Fragebogen, Scoring, Templates, Normwerte, Metadaten und Website-Entwurf.
 
+## Rechte & Autor*innenschaft (zentral – bitte lesen)
+- **Originalinstrument (GCLS) Autor*innen**: Bethany A. Jones, Walter Pierre Bouman, Emma Haycraft, Jon Arcelus (UK)
+- **Originalpaper (Taylor & Francis)**: Open Access unter **CC BY‑NC‑ND 4.0** (laut PDF) → erlaubt Verteilung, aber **keine Derivate**
+- **Deutsch (GCLS-D/GCLS-G)**: Akzeptiert im *International Journal of Transgender Health* (accepted 18‑Jun‑2026; DOI folgt)
+- **Zentraler Hinweis**: `metadata/RECHTE_UND_AUTOR_INNENSCHAFT_ZENTRAL.md`
+
 ## 1) Fragebogen (Download)
 - `questionnaire/GCLS-D_Fragebogen.pdf` (druckfertig)
 - `questionnaire/GCLS-D_Fragebogen.tex` (LaTeX-Quelle)
@@ -33,6 +39,7 @@ Aus dem Projekt-Datensatz `Gesamt_Datensatz_merged.xlsx` (0–4 Kodierung) berec
 - `metadata/zenodo.json` (Zenodo-Upload Metadaten)
 - `metadata/REFERENCE.md` (Zitierempfehlung-Text)
 - `metadata/ORIGINAL_GCLS_Autor_innen_und_Lizenz.md` (Originalautor*innen + Lizenz aus dem GCLS-Originalpaper)
+- `metadata/RECHTE_UND_AUTOR_INNENSCHAFT_ZENTRAL.md` (kurzer zentraler Rights/Credits-Hinweis)
 
 ## 6) Website (lokaler Entwurf)
 - `website/index.html`

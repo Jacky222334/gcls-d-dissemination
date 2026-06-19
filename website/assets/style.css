@@ -118,6 +118,10 @@ h1{
   padding: 16px;
   box-shadow: var(--shadow);
 }
+.card.rights{
+  border-color: rgba(87,211,166,0.35);
+  background: linear-gradient(180deg, rgba(87,211,166,0.10), rgba(255,255,255,0.03));
+}
 .card.wide{margin: 0 0 24px;}
 .card h2{
   margin: 0 0 10px;
